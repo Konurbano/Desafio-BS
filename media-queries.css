@@ -1,0 +1,59 @@
+/*section Nuestro Servicio*/
+@media screen and (max-width: 767px){
+    .publicidad__container .parrafo__2 {
+    display: none;
+    }
+    
+}
+
+@media screen and (max-width: 768px) { 
+  
+/*section main*/
+
+
+.envios .envios-content {
+    grid-column: 1/9;
+    grid-row: 2/7;
+    padding: 20px;
+    }
+
+.envios h1 {
+    font-size: 3.5em;
+    }
+
+.envios .btn {
+    font-size: 1em;
+    background: none;
+    color: #273d74;
+    padding: 10px 20px;
+    border: 3px solid #b3c8ff;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+
+    }
+
+/*section footer*/
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+footer .footer__container {
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+}
+
+
+
+
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga tu envio</title>
+    <link rel="shortcut icon" href="/img/icon.png" type="img.png">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="../utilidades/LOGOS/SIN FONDO/LOGO-6.png" alt="boxie" width="100px" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./nuestro_servicio.html">Nuestro Servicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./preguntas_frecuentes.html">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="N°Seguimiento" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Seguí tu envío</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section>
+        <div class="form__container">
+            <div>
+                <h3 class="titulo__destinatario">Destinatario</h3>
+            </div>
+            <div class="caja__1">
+                <div class="contenedores">
+                    <form action="enviar.php" method="get" enctype="text/plain">
+                    <label class="label__form" for="">Nombre: </label>
+                    <input type="text" id="nombre" placeholder="ingrese su nombre">
+                </div>
+                <br>
+                <div class="contenedores">
+                    <label class="label__form" for="">Apellido: </label>
+                    <input type="text" id="apellido" placeholder="ingrese su apellido">
+                </div>
+                <br>
+                <div class="contenedores">
+                <label class="label__form" for="">Calle: </label>
+                <input type="text" id="apellido" placeholder="ingrese nombre de calle">
+                </div>
+                <br>
+                <div class="contenedores">
+                    <label class="label__form" for="">Numero: </label>
+                    <input type="number" id="apellido" placeholder="ingrese número">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="caja__2">
+                <div class="contenedores">
+                    <label class="label__form" for="">piso y dpto: </label>
+                    <input type="text" id="apellido" placeholder="EJ Primero D">
+                </div>
+                <br>
+                <div class="contenedores">
+                    <label class="label__form" for="">Telefono: </label>
+                    <input type="number" id="apellido" placeholder="ingrese telefono">
+            </div>
+
+            <br>
+                <div class="contenedores">
+                    <label class="label__form" for="email">Email: </label>
+                    <input type="email" id="email" placeholder="ingrese mail" required> 
+                </div>
+            </div>
+
+            <br>
+
+            <div class="caja__3">
+                <div>
+                    <input type="submit" value="Enviar ahora">
+                </div>
+            </div>    
+            </form>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer class="pie__envios">
+        <section>
+        <div class="footer__telollevo">
+            <h1>Telollevook | Envios a Domicilio</h1>
+        </div>
+        </section>
+    </footer>  
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>  
+</body>
+</html>
